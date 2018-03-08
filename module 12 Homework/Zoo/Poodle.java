@@ -1,9 +1,7 @@
 public class Poodle extends Dog {
 
     private String name;
-    private String sound = "Woof Woof";
     private String color = "White";
-    private int weight = 54;
     private String breed = "Poodle";
 
 
@@ -15,18 +13,9 @@ public class Poodle extends Dog {
       return color;
     }
 
-    public int getWeight() {
-      return weight;
-    }
-
-    public String getSound() {
-      return sound;
-    }
-
     Poodle(String name) {
       super(name);
     }
-
 
       public static void main(String[] args) {
         Poodle poodle = new Poodle("YourPoo");

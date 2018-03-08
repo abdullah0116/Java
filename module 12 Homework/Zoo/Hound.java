@@ -1,9 +1,7 @@
 public class Hound extends Dog {
 
   private String name;
-  private String sound = "Woof Woof";
   private String color = "White & Brown";
-  private int weight = 54;
   private String breed = "Hound";
 
 
@@ -13,14 +11,6 @@ public class Hound extends Dog {
 
   public String getColor() {
     return color;
-  }
-
-  public int getWeight() {
-    return weight;
-  }
-
-  public String getSound() {
-    return sound;
   }
 
   Hound(String name) {
