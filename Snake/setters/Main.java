@@ -1,3 +1,4 @@
+package setters;
 import java.awt.*;
 import java.awt.geom.GeneralPath;
 import java.awt.event.*;
@@ -11,7 +12,5 @@ public class Main {
     f.setVisible(true);// because by defualt its hidden
     f.setSize(600,600);// setting the size
     f.setTitle("Snake");
-    //f.setBackground(Color.black);
-    //snake.paintComponent();
   }
 }
